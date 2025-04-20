@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Info</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 0.2rem;
+      color: #2c3e50;
+    }
+
+    h2 {
+      margin-top: 0;
+      font-weight: 400;
+      font-size: 1.1rem;
+      color: #555;
+    }
+
+    .info {
+      text-align: left;
+      margin: 2rem 0;
+    }
+
+    .info p {
+      margin: 0.5rem 0;
+      font-size: 1rem;
+      color: #333;
+    }
+
+    .info a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    .info a:hover {
+      text-decoration: underline;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #007BFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+
+    a.button:hover {
+      background-color: #0056b3;
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        padding: 1.5rem;
+      }
+
+      .buttons {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Ayesha Syed</h1>
+    <h2>Chief Operating Office</h2>
+
+    <div class="info">
+      <p><strong>Company:</strong>ELYSIUM AKAS EVENTS</p>
+      <p><strong>Phone:</strong> <a href="tel:+971503476969">+971 50 347 6969</a></p>
+      <p><strong>Email:</strong> <a href="mailto:ayesha@elysiumakas.com">ayesha@elysiumakas.com</a></p>
+      <p><strong>Website:</strong> <a href="www.elysiumakas.com" target="_blank">www.elysiumakas.com</a></p>
+      <p><strong>Office Address:</strong><br>
+         305-B, Saraya Avenue, Al Garhoud<br>
+         , Dubai, UAE.</p>
+    </div>
+
+    <div class="buttons">
+      <a class="button" href="tel:+971503476969">Call</a>
+      <a class="button" href="Ayesha.vcf" download>Download vCard</a>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
